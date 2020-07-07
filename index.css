@@ -8,6 +8,14 @@
 
 
 }
+.tarjetas img:hover{
+    transform: translate(0px,15px);
+}
+
+.Logo img:hover{
+    transform: translate(15px);
+}
+
 .cabecera div{
     display: flex;
     align-items: center;
@@ -65,9 +73,7 @@
 .destacado:hover{
     color: red;
 }
-.li h3:hover{
-    font-size: 20px;
-}
+
 
 .tarjetas{
     display: flex;
@@ -77,6 +83,7 @@
     justify-content: space-around;
     text-align: center;
     padding-top: 50px;
+    
     
 }
 .PaginaCuerpo{
@@ -93,6 +100,9 @@
     background-color: white;
     text-align: center;
     margin: 30px;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+   
     
 }
 
