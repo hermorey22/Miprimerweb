@@ -33,10 +33,20 @@
 .tituloDestacado{
     display: flex;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, #FD8D49, #F43605);
     justify-content: space-around;
+    text-align: center;
+    background-image: url("src/routeroportada.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    background-size: contain;
 
+}
+.destacado{
+    color: white;
+    font-size: 45px;
+}
+.destacado:hover{
+    color: red;
 }
 
 
@@ -47,6 +57,7 @@
     background: linear-gradient(to right, #FD8D49, #F43605);
     justify-content: space-around;
     text-align: center;
+    padding-top: 50px;
     
 }
 .PaginaCuerpo{
@@ -88,6 +99,7 @@
     display: flex;
     width: 100%;
     height: 100%;
+    border: 3px black solid;
     background: linear-gradient(to right, #FD8D49, #F43605);
     justify-content: center;
 
